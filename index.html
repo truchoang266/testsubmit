@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+    body{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .header .nav{
+        width: 100%;
+        background-color:black;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    
+
+    .header .nav .logo img{
+        width:220px;
+    }
+
+    .header .nav .menu{
+        display: flex;
+        align-items: center;
+    }
+
+    .header .nav ul{
+        display: flex;
+        padding: 0px 50px;
+        list-style-type:none;
+
+    }
+
+    #home{
+        color:#B2980D;
+    }
+
+    .header .nav ul li a{
+        text-decoration:none;
+        color: white;
+        padding: 0px 30px 0px 0px;
+        text-transform:uppercase;
+    }
+
+    .fa-magnifying-glass{
+        color:white;
+    }
+
+    .fa-bars{
+        color: white;
+        padding: 0px 10px;
+    }
+
+    .content{
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+
+    .content .text{
+        margin: auto 50px auto 80px;
+    }
+
+    .content .text h1{
+        font-weight:100;
+        color:#B2980D;
+        font-size:25px;
+    }
+
+    .content .text h2{
+        text-transform: uppercase;
+        font-size: 70px;
+        margin:20px 0px;
+
+    }
+
+    .content .text button{
+        text-transform:uppercase;
+        padding: 20px;
+        color: white;
+        background-color:#B2980D;
+        border: none;
+        cursor:pointer;
+    }
+
+    
+    .image{
+        margin:50px 50px auto 0px;
+    }
+
+    
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="nav">
+            <div class="logo">
+                <img src="img/pet_mobile.png">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#" id="home">Home</a></li>
+                    <li><a href ="#">About</a></li>
+                    <li><a href ="#">Services</a></li>
+                    <li><a href ="#">Gallery</a></li>
+                    <li><a href ="#">Blog</a></li>
+                    <li><a href ="#">Contact</a></li>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-bars"></i>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <div class="text">
+                <h1><i>Rockstar treatment for your pet</i></h1>
+                <h2>Grooming with<br>gentle care.</h2>
+                <button>Contact us</button>
+            </div>
+            <div class="image">
+                <img src="img/meo.jpg">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
